@@ -101,9 +101,9 @@ jobs:
 
           # 编译x64固件:
           cat >> .config <<EOF
-          CONFIG_TARGET_x86=y
-          CONFIG_TARGET_x86_64=y
-          CONFIG_TARGET_x86_64_Generic=y
+          CONFIG_TARGET_AT91=y
+          CONFIG_TARGET_AT91_sama5=y
+          CONFIG_TARGET_AT91_sama5_ama5d3=y
           EOF
 
           # 固件压缩:
